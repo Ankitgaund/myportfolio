@@ -747,10 +747,24 @@ div > section p{
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
+    animation: all ease 0.3s;
+    cursor:pointer;
+    
   }
   .content .card img{
     width: 250px;
     height: 250px;
+    transition : all 1.5s linear;
+    filter:grayscale(1);
+  }   
+
+
+.content .card img:hover{
+    width: 250px;
+    transform: scaleY(1.2);
+    filter:grayscale(0);
+    
+
   }
 .content .card  h4{
   margin-top: 10px;
